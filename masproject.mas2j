@@ -1,0 +1,12 @@
+MAS masproject {
+
+	infrastructure: Centralised
+	environment: masproject.HelplineEnvironment
+	agents:
+		emma doctor;
+		elsa patient;
+		anna patient;
+		john patient;
+	aslSourcePath:
+		"src/asl";
+}
